@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #926239;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: var(--primary-color);
+    line-height: 1.6;
+}
+
+#showcase {
+    background-image: url("../img/beachshowcase.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#showcase h1 {
+    font-size: 35px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+#showcase p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#showcase .button {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--primary-color);
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+#showcase .button:hover {
+    background-color: var(--primary-color);
+    opacity: 0.5;
+    color: white;
+}
+
+.section-a {
+    padding: 20px;
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+}
+
+.section-b {
+    padding: 20px;
+    background: white;
+    text-align: center;
+}
+
+.section-c {
+    display: flex;
+}
+
+.section-c div {
+    padding: 20px;
+}
+
+.box-1,
+.box-3 {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+}
+
+.box-2 {
+    background-color: #f9f9f9;
+}
